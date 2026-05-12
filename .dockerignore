@@ -1,0 +1,44 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyt
+
+# Virtual environments
+venv/
+.env/
+.env.local
+.env.*.local
+
+# Git metadata
+.git/
+.gitignore
+
+# Docker and build artifacts
+docker-compose*.yml
+Dockerfile*
+*.dockerignore
+*.log
+*.swp
+*.swo
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.iml
+
+# Test files
+tests/
+test_*.py
+*_test.py
+
+# Node / front-end (if any)
+node_modules/
+dist/
+build/
+
+# Misc local files
+*.bak
+*.tmp
+*.old
